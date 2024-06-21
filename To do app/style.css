@@ -1,0 +1,81 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(60deg, #b9c8e1 0%, #7ec0c0 100%);
+}
+
+section{
+   margin: 20px;
+}
+
+.matter{
+   background-image: linear-gradient(60deg, #9bbbc9 0%, #7ba4b5 100%);
+   border: 2px solid rgb(158, 172, 179);
+   border-radius: 2rem;
+   padding: 20px;
+   margin-top: 2rem;
+   margin-bottom: 10rem;
+   margin-left: 10rem;
+   margin-right: 10rem;
+}
+.playwrite-au-vic{
+  font-family: "Playwrite AU VIC", cursive;
+  font-optical-sizing: auto;
+  text-align: center;
+}
+
+/* General button styles */
+button {
+   font-size: 16px;
+   padding: 5px 10px;
+   margin: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+/* Add button */
+button.add {
+   background-color: #54d259; /* Green */
+   color: white;
+   border-radius:50px;
+}
+
+/* Delete button */
+button.delete {
+   background-color: #e11708; /* Red */
+   color: white;
+   border-radius:50px;
+}
+
+/* Edit button */
+button.edit {
+   background-color: #ffa500; /* Orange */
+   color: white;
+   border-radius:50px;
+}
+
+/* Optional: Style for the input field and list items */
+input {
+   font-size: 16px;
+   padding: 5px;
+   margin-right: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+li {
+   font-size: 16px;
+   padding: 5px;
+   margin: 5px 0;
+   list-style-type: none;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+}
+
+li button {
+   margin-left: 10px;
+}
